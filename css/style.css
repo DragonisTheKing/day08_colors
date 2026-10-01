@@ -1,0 +1,55 @@
+.first {
+    color: #1D2C3E
+}
+
+.second {
+    color: #566E89
+}
+
+.third {
+    color: #ACC0D7
+}
+
+.fourth {
+    color: #374D58
+}
+
+.fifth {
+    color: #D7CCC2
+}
+
+
+
+.box {
+    background-color: #1D2C3E;
+    padding: 10px;
+}
+
+
+        nav {
+        background-color: #566E89;
+        }
+        nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        }
+        nav li {
+        margin-right: 20px;
+        }
+        nav a {
+        color: white;
+        text-decoration: none;
+        padding: 14px 20px;
+        display: block;
+        }
+        /* Hover effect */
+        nav a:hover {
+        background-color: #ACC0D7;
+        }
+        /* Active (current page) link */
+        nav a.active {
+        background-color: #374D58;  /* a green highlight */
+        font-weight: bold;          /* make it stand out */
+        }
